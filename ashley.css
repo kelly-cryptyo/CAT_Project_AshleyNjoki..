@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.navbar ul li a:hover {
+    color: red;
+    font-size: 18px;}
+.mainheader{
+    background: url(https://cdn.pixabay.com/photo/2023/09/20/11/40/plants-8264659_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+   
+    
+}
+#navbar{
+    padding-top: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    
+}
+.navbar li{
+    gap: 1.5 em;
+}
+#HOME #LOGO{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10%;
+  }
+  
+  #usernames,
+  #logo {
+    margin-right: 10px; /* Adjust the margin as per your preference */
+  }
+  #logo ul{
+    list-style-type: none;
+  }
+  #headicons {
+    display: flex;
+    justify-content: flex-end; /* Use flex-end to align the icons to the right */
+    align-items: center;
+}
+
+#headicons ion-icon {
+    font-size: 30px;
+    color: #ff0000;
+    opacity: 30%;
+}
+
+
+  
+  #headicons ul {
+    list-style: none;
+    display: flex; /* Add this line to the ul to make it a flex container */
+    justify-content: flex-end; /* Use flex-end to align the icons to the right */
+  }
+  
+  #headicons li {
+    margin-left: 10px; /* Adjust the margin as per your preference */
+  }
+img{
+    border-radius: 50%;
+    width: 200px;
+
+}
+#BIO{
+    padding: 30%;
+    padding-top: 10%;
+    padding-left: 15%;
+    background: url(https://cdn.pixabay.com/photo/2023/10/05/11/57/book-8295812_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#EDUCATION{
+    padding: 30%;
+    padding-top: 10%;
+    padding-left: 15%;
+    background: url(https://cdn.pixabay.com/photo/2023/10/29/13/21/waterfall-8350178_1280.jpg);
+    color: aliceblue;
+    font-size: x-large;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+#footericons ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+} 
+#usernames{
+  color: brown;
+}
